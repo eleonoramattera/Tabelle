@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+table {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+td {
+  width: 6em;
+  height: 2em;
+}
+
+table tr:first-child td:first-child {
+  border-bottom: 4px solid rgb(54, 53, 53);
+}
+table tr:first-child td:nth-child(2),
+table tr:nth-child(8) td:nth-child(2) {
+  background-color: yellow;
+  border-top-left-radius: 1.2em;
+  border-top-right-radius: 1.2em;
+}
+table tr:nth-child(2) td:first-child {
+  border: 3px solid yellow;
+}
+
+table tr:nth-child(2) td:nth-child(2),
+table tr:nth-child(8) td:nth-child(3) {
+  background-color: rgb(72, 231, 72);
+}
+table tr:first-child td:nth-child(3) {
+  border: 3px solid rgb(72, 231, 72);
+  border-top-left-radius: 1.2em;
+  border-top-right-radius: 1.2em;
+}
+
+table tr:nth-child(2) td:nth-child(3) {
+  border: 3px solid rgb(72, 128, 231);
+}
+table tr:first-child td:nth-child(4),
+table tr:nth-child(8) td:nth-child(4) {
+  background-color: rgb(72, 128, 231);
+  border: 3px solid rgb(72, 128, 231);
+  border-top-left-radius: 1.2em;
+  border-top-right-radius: 1.2em;
+}
+
+table tr:first-child td:nth-child(5) {
+  border: 3px solid rgb(253, 0, 0);
+  border: 3px solid rgb(253, 0, 0);
+  border-top-left-radius: 1.2em;
+  border-top-right-radius: 1.2em;
+}
+table tr:nth-child(2) td:nth-child(4),
+table tr:nth-child(8) td:nth-child(5) {
+  background-color: rgb(253, 0, 0);
+}
