@@ -1,0 +1,59 @@
+main section:first-child {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  align-items: center;
+}
+
+main section:first-child div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(#ca58ff, #ffa0f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schoolSubjects {
+  width: 30%;
+  text-align: center;
+}
+.schoolSubjects caption {
+  margin-bottom: 2em;
+}
+.schoolSubjects tr,
+.schoolSubjects td,
+.schoolSubjectsExplication td {
+  border-radius: 40px;
+  padding: 0.5em;
+}
+
+.schoolSubjects tr:nth-child(even) td {
+  background-color: #ca58ff; /* Colore delle celle pari */
+}
+.schoolSubjects tr:nth-child(odd) td {
+  background-color: #ffa0f7; /* Colore delle celle dispari */
+}
+
+main section:nth-child(2) {
+  margin-top: 2em;
+}
+
+.schoolSubjectsExplication {
+  width: 80%;
+  margin: auto;
+  border-spacing: 2px;
+  border-collapse: collapse;
+  border-radius: 40px;
+}
+
+.schoolSubjectsExplication tr:nth-child(odd) {
+  text-align: center;
+  font-weight: bold;
+}
+
+.schoolSubjectsExplication tr:nth-child(odd) {
+  background-color: #ffa0f7;
+  border-radius: 40px;
+}
